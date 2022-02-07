@@ -1,0 +1,7 @@
+{
+  "name": "@ut-essentials/tailwindcss-preset-screens",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Stephan Burger",
+  "license": "MIT"
+}
