@@ -1,0 +1,37 @@
+{
+  "name": "@ut-essentials/posthtml-pipeline",
+  "version": "0.0.1",
+  "source": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/types.d.ts",
+  "author": "Stephan Burger",
+  "license": "MIT",
+  "targets": {
+    "main": {
+      "context": "node",
+      "outputFormat": "commonjs",
+      "isLibrary": true,
+      "sourceMap": false
+    }
+  },
+  "scripts": {
+    "build": "rimraf dist && parcel build"
+  },
+  "dependencies": {
+    "core-js": "^3.21.0",
+    "lodash": "^4.17.21",
+    "posthtml": "^0.16.5",
+    "posthtml-parser": "^0.10.2",
+    "posthtml-render": "^3.0.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.2.1",
+    "@parcel/transformer-typescript-types": "^2.2.1",
+    "@types/core-js": "^2.5.5",
+    "@types/lodash": "^4.14.178",
+    "@types/node": "^17.0.15",
+    "parcel": "^2.2.1",
+    "rimraf": "^3.0.2"
+  }
+}
