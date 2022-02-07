@@ -1,0 +1,19 @@
+{
+  "name": "ut-essentials",
+  "author": {
+    "name": "Stephan Burger"
+  },
+  "version": "0.0.1",
+  "scripts": {
+    "clean": "lerna clean",
+    "bootstrap": "lerna bootstrap --hoist",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.2.1",
+    "@parcel/transformer-typescript-types": "^2.2.1",
+    "lerna": "^4.0.0",
+    "typescript": ">=3.0.0"
+  },
+  "dependencies": {}
+}
