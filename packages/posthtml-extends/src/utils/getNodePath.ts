@@ -25,5 +25,5 @@ export default function getNodePath(
 
   const src = node.attrs.src
   // Using src provided from tag
-  return path.resolve(pathPrefix, src)
+  return path.resolve(pathPrefix, src, defaultFile)
 }
